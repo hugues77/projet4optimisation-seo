@@ -80,10 +80,13 @@ body {
 	font-size: 30px;
 }
 .about-me__introduction {
+	font-size: 16px;
+	line-height: 19px;
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	margin-bottom: 12px;
 }
 #about-me p {
 	width: 80%;
