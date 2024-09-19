@@ -104,7 +104,8 @@ body {
 /* class pour CSS filtrer categorie et Menu*/
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	/* background-color: #BEB45A; */
+	background-color: crimson;
 	border-radius: 0;
 	/* cursor: pointer; */
 }
@@ -211,7 +212,8 @@ body {
 }
 .picture.right::before {
 	content: ' ';
-	background-color: #BEB45A;
+	/* background-color: #BEB45A; */
+	background-color: crimson;
 	width: 374px;
 	height: 329px;
 	position: absolute;
@@ -248,7 +250,9 @@ form textarea {
 	margin-bottom: 20px;
 }
 input[type="submit"] {
-	background-color: #BEB45A;
+	/* background-color: #BEB45A; */
+	background-color: crimson;
+	color: #fff;
 	padding: .5em 1em
 }
 
