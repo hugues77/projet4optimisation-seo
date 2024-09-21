@@ -131,6 +131,10 @@ body {
 	padding-bottom: 100%;
 
 }
+.modal-content{
+	text-align: center;
+}
+
 .gallery-item {
 	position: absolute;
 	width: 100%;
@@ -146,6 +150,11 @@ body {
 	align-items: center;
 	display: flex;
 	font-size: 24px;
+	cursor: pointer;
+}
+.mg-next.active,
+.mg-prev.active{
+	display: none;
 }
 
 .quote {
@@ -215,8 +224,8 @@ body {
 }
 .picture.right::before {
 	content: ' ';
-	/* background-color: #BEB45A; */
-	background-color: crimson;
+	background-color: #BEB45A;
+	/* background-color: crimson; */
 	width: 374px;
 	height: 329px;
 	position: absolute;
@@ -253,8 +262,8 @@ form textarea {
 	margin-bottom: 20px;
 }
 input[type="submit"] {
-	/* background-color: #BEB45A; */
-	background-color: crimson;
+	background-color: #BEB45A;
+	/* background-color: crimson; */
 	color: #fff;
 	padding: .5em 1em
 }
