@@ -213,10 +213,11 @@ body {
 
 #contact {
 	margin: auto;
-	background-color: #D8D3A8 ;
+	background-color: #1C6474;
 	position: relative;
 	padding-inline: 100px;
 	padding-block: 100px;
+	color: #fff;
 }
 
 #contact .container {
@@ -224,8 +225,8 @@ body {
 }
 .picture.right::before {
 	content: ' ';
-	background-color: #BEB45A;
-	/* background-color: crimson; */
+	/* background-color: #BEB45A; */
+	background-color: crimson;
 	width: 374px;
 	height: 329px;
 	position: absolute;
@@ -247,7 +248,7 @@ form {
 form input {
 	width: 100%;
 	background-color: transparent;
-	border: solid 1px;
+	border: solid 1px #fff;
 	height: 2.5em;
 	margin-bottom: 20px;
 }
@@ -255,15 +256,15 @@ form input {
 form textarea {
 	width: 100%;
 	background-color: transparent;
-	border: solid 1px;
+	border: solid 1px #fff;
 	height: 5em;
 	line-height: 2.5em;
 	font-size: 1.2em;
 	margin-bottom: 20px;
 }
 input[type="submit"] {
-	background-color: #BEB45A;
-	/* background-color: crimson; */
+	/* background-color: #BEB45A; */
+	background-color: crimson;
 	color: #fff;
 	padding: .5em 1em
 }
