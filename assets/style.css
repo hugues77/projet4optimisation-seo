@@ -132,7 +132,8 @@ body {
 
 }
 .modal-content{
-	text-align: center;
+	width: auto;
+	height: auto;
 }
 
 .gallery-item {
