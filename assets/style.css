@@ -21,7 +21,10 @@ body {
 .top-header .name {
 	font-size: 26px;
 }
-
+.previous-slider,
+.next-slider{
+	display: none;
+}
 .nav ul {
 	display: flex;
 	list-style-type: none;
