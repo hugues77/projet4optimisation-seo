@@ -141,6 +141,7 @@
       $(`#${lightboxId}`).modal("toggle");
 
     },
+    
     prevImage() {
       let activeImage = null;
       $("img.gallery-item").each(function() {
